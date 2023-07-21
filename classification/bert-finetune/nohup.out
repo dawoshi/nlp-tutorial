@@ -1,0 +1,84 @@
+Loading data...
+0it [00:00, ?it/s]2035it [00:00, 20340.42it/s]4115it [00:00, 20608.03it/s]6219it [00:00, 20803.73it/s]8300it [00:00, 18300.12it/s]10425it [00:00, 19274.31it/s]12526it [00:00, 19829.41it/s]14619it [00:00, 20175.53it/s]16711it [00:00, 20404.74it/s]18825it [00:00, 20627.46it/s]20908it [00:01, 20685.55it/s]22995it [00:01, 20741.31it/s]25101it [00:01, 20836.83it/s]27207it [00:01, 20900.49it/s]29308it [00:01, 20932.45it/s]31407it [00:01, 20947.60it/s]33503it [00:01, 20876.25it/s]35614it [00:01, 20944.78it/s]37720it [00:01, 20977.35it/s]39819it [00:01, 18697.86it/s]41907it [00:02, 19297.80it/s]44007it [00:02, 19777.37it/s]46098it [00:02, 20102.84it/s]48205it [00:02, 20381.13it/s]50303it [00:02, 20556.08it/s]52412it [00:02, 20711.69it/s]54508it [00:02, 20784.42it/s]56631it [00:02, 20913.83it/s]58727it [00:02, 20925.86it/s]60829it [00:02, 20951.57it/s]62944it [00:03, 21007.98it/s]65047it [00:03, 21000.98it/s]67159it [00:03, 21035.18it/s]69272it [00:03, 21061.37it/s]71379it [00:03, 18226.15it/s]73440it [00:03, 18867.33it/s]75531it [00:03, 19434.11it/s]77634it [00:03, 19888.17it/s]79740it [00:03, 20224.07it/s]81828it [00:04, 20415.35it/s]83912it [00:04, 20536.90it/s]86009it [00:04, 20662.59it/s]88108it [00:04, 20756.82it/s]90199it [00:04, 20800.91it/s]92310it [00:04, 20892.90it/s]94406it [00:04, 20911.47it/s]96504it [00:04, 20930.67it/s]98604it [00:04, 20949.55it/s]100708it [00:04, 20975.54it/s]102810it [00:05, 20986.98it/s]104912it [00:05, 20995.73it/s]107012it [00:05, 17657.31it/s]109104it [00:05, 18520.02it/s]111196it [00:05, 19176.77it/s]113276it [00:05, 19632.88it/s]115389it [00:05, 20057.00it/s]117484it [00:05, 20315.13it/s]119592it [00:05, 20538.80it/s]121685it [00:05, 20651.09it/s]123793it [00:06, 20776.07it/s]125886it [00:06, 20819.84it/s]127994it [00:06, 20894.08it/s]130101it [00:06, 20943.83it/s]132199it [00:06, 20936.81it/s]134301it [00:06, 20961.19it/s]136399it [00:06, 20954.41it/s]138496it [00:06, 20945.91it/s]140609it [00:06, 21000.09it/s]142710it [00:06, 20968.63it/s]144812it [00:07, 20983.62it/s]146911it [00:07, 20970.34it/s]149019it [00:07, 21001.74it/s]151126it [00:07, 21019.62it/s]153247it [00:07, 21076.49it/s]155355it [00:07, 17052.73it/s]157445it [00:07, 18040.45it/s]159542it [00:07, 18826.97it/s]161651it [00:07, 19454.61it/s]163734it [00:08, 19843.86it/s]165836it [00:08, 20180.45it/s]167934it [00:08, 20412.82it/s]170055it [00:08, 20645.17it/s]172138it [00:08, 20696.97it/s]174234it [00:08, 20773.15it/s]176336it [00:08, 20845.59it/s]178450it [00:08, 20933.16it/s]180000it [00:08, 20341.48it/s]
+0it [00:00, ?it/s]2076it [00:00, 20750.08it/s]4181it [00:00, 20925.95it/s]6287it [00:00, 20984.08it/s]8386it [00:00, 20956.13it/s]10000it [00:00, 20939.21it/s]
+0it [00:00, ?it/s]1978it [00:00, 19773.32it/s]4295it [00:00, 21768.63it/s]6472it [00:00, 21200.57it/s]8594it [00:00, 20762.99it/s]10000it [00:00, 20947.02it/s]
+/Users/william/codes/github_submission/Bert-ONNX_Runtime-cpp/bert-finetune/pytorch_pretrained/optimization.py:275: UserWarning: This overload of add_ is deprecated:
+	add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add_(Tensor other, *, Number alpha) (Triggered internally at /Users/runner/work/_temp/anaconda/conda-bld/pytorch_1678454847243/work/torch/csrc/utils/python_arg_parser.cpp:1485.)
+  next_m.mul_(beta1).add_(1 - beta1, grad)
+Time usage: 0:00:10
+Epoch [1/3]
+Iter:      0,  Train Loss:   2.4,  Train Acc: 10.16%,  Val Loss:   2.4,  Val Acc:  9.08%,  Time: 0:00:43 *
+Iter:    100,  Train Loss:  0.36,  Train Acc: 90.62%,  Val Loss:  0.42,  Val Acc: 87.74%,  Time: 0:04:31 *
+Iter:    200,  Train Loss:  0.35,  Train Acc: 89.84%,  Val Loss:  0.37,  Val Acc: 89.52%,  Time: 0:08:24 *
+Iter:    300,  Train Loss:  0.28,  Train Acc: 91.41%,  Val Loss:  0.32,  Val Acc: 90.78%,  Time: 0:12:14 *
+Iter:    400,  Train Loss:  0.44,  Train Acc: 86.72%,  Val Loss:  0.29,  Val Acc: 90.99%,  Time: 0:16:03 *
+Iter:    500,  Train Loss:  0.28,  Train Acc: 92.19%,  Val Loss:  0.27,  Val Acc: 91.70%,  Time: 0:19:53 *
+Iter:    600,  Train Loss:  0.26,  Train Acc: 90.62%,  Val Loss:  0.28,  Val Acc: 91.04%,  Time: 0:23:41 
+Iter:    700,  Train Loss:  0.22,  Train Acc: 92.19%,  Val Loss:  0.25,  Val Acc: 92.15%,  Time: 0:27:30 *
+Iter:    800,  Train Loss:  0.14,  Train Acc: 94.53%,  Val Loss:  0.23,  Val Acc: 92.97%,  Time: 0:31:20 *
+Iter:    900,  Train Loss:   0.2,  Train Acc: 93.75%,  Val Loss:  0.23,  Val Acc: 92.97%,  Time: 0:35:09 *
+Iter:   1000,  Train Loss:  0.19,  Train Acc: 92.97%,  Val Loss:  0.24,  Val Acc: 92.36%,  Time: 0:38:56 
+Iter:   1100,  Train Loss:  0.23,  Train Acc: 93.75%,  Val Loss:  0.21,  Val Acc: 93.14%,  Time: 0:42:45 *
+Iter:   1200,  Train Loss:  0.22,  Train Acc: 90.62%,  Val Loss:  0.22,  Val Acc: 92.67%,  Time: 0:46:32 
+Iter:   1300,  Train Loss:  0.22,  Train Acc: 90.62%,  Val Loss:   0.2,  Val Acc: 93.71%,  Time: 0:50:22 *
+Iter:   1400,  Train Loss:  0.36,  Train Acc: 90.62%,  Val Loss:   0.2,  Val Acc: 93.71%,  Time: 0:54:11 
+Epoch [2/3]
+Iter:   1500,  Train Loss:  0.22,  Train Acc: 92.19%,  Val Loss:   0.2,  Val Acc: 93.67%,  Time: 0:58:04 *
+Iter:   1600,  Train Loss:  0.21,  Train Acc: 92.19%,  Val Loss:   0.2,  Val Acc: 93.67%,  Time: 1:01:59 
+Iter:   1700,  Train Loss:  0.18,  Train Acc: 94.53%,  Val Loss:  0.21,  Val Acc: 93.57%,  Time: 1:05:50 
+Iter:   1800,  Train Loss:  0.13,  Train Acc: 95.31%,  Val Loss:   0.2,  Val Acc: 93.96%,  Time: 1:09:38 
+Iter:   1900,  Train Loss:  0.12,  Train Acc: 96.88%,  Val Loss:   0.2,  Val Acc: 93.80%,  Time: 1:13:27 *
+Iter:   2000,  Train Loss:  0.11,  Train Acc: 97.66%,  Val Loss:   0.2,  Val Acc: 93.80%,  Time: 1:17:17 
+Iter:   2100,  Train Loss:  0.18,  Train Acc: 96.88%,  Val Loss:   0.2,  Val Acc: 93.82%,  Time: 1:21:07 
+Iter:   2200,  Train Loss:  0.16,  Train Acc: 92.97%,  Val Loss:   0.2,  Val Acc: 93.70%,  Time: 1:24:56 
+Iter:   2300,  Train Loss:  0.11,  Train Acc: 94.53%,  Val Loss:   0.2,  Val Acc: 93.94%,  Time: 1:28:44 
+Iter:   2400,  Train Loss: 0.059,  Train Acc: 98.44%,  Val Loss:   0.2,  Val Acc: 93.70%,  Time: 1:32:32 
+Iter:   2500,  Train Loss: 0.098,  Train Acc: 96.09%,  Val Loss:   0.2,  Val Acc: 93.85%,  Time: 1:36:18 
+Iter:   2600,  Train Loss:  0.13,  Train Acc: 94.53%,  Val Loss:   0.2,  Val Acc: 93.80%,  Time: 1:40:04 
+Iter:   2700,  Train Loss:  0.13,  Train Acc: 96.88%,  Val Loss:  0.19,  Val Acc: 94.01%,  Time: 1:43:52 *
+Iter:   2800,  Train Loss:  0.11,  Train Acc: 97.66%,  Val Loss:  0.19,  Val Acc: 94.19%,  Time: 1:47:39 *
+Epoch [3/3]
+Iter:   2900,  Train Loss:   0.1,  Train Acc: 97.66%,  Val Loss:   0.2,  Val Acc: 94.07%,  Time: 1:51:24 
+Iter:   3000,  Train Loss:   0.1,  Train Acc: 96.88%,  Val Loss:  0.19,  Val Acc: 94.12%,  Time: 1:55:10 
+Iter:   3100,  Train Loss: 0.059,  Train Acc: 97.66%,  Val Loss:   0.2,  Val Acc: 94.08%,  Time: 1:58:57 
+Iter:   3200,  Train Loss:  0.15,  Train Acc: 96.09%,  Val Loss:  0.21,  Val Acc: 93.91%,  Time: 2:02:43 
+Iter:   3300,  Train Loss: 0.062,  Train Acc: 98.44%,  Val Loss:   0.2,  Val Acc: 94.36%,  Time: 2:06:29 
+Iter:   3400,  Train Loss: 0.095,  Train Acc: 96.09%,  Val Loss:   0.2,  Val Acc: 94.34%,  Time: 2:10:16 
+Iter:   3500,  Train Loss:  0.06,  Train Acc: 96.09%,  Val Loss:   0.2,  Val Acc: 94.50%,  Time: 2:14:02 
+Iter:   3600,  Train Loss: 0.012,  Train Acc: 100.00%,  Val Loss:   0.2,  Val Acc: 94.34%,  Time: 2:17:48 
+Iter:   3700,  Train Loss: 0.086,  Train Acc: 95.31%,  Val Loss:   0.2,  Val Acc: 94.22%,  Time: 2:21:35 
+Iter:   3800,  Train Loss: 0.064,  Train Acc: 98.44%,  Val Loss:   0.2,  Val Acc: 94.53%,  Time: 2:25:21 
+No optimization for a long time, auto-stopping...
+Test Loss:  0.18,  Test Acc: 94.49%
+Precision, Recall and F1-Score...
+               precision    recall  f1-score   support
+
+      finance     0.9327    0.9420    0.9373      1000
+       realty     0.9568    0.9520    0.9544      1000
+       stocks     0.9138    0.9010    0.9074      1000
+    education     0.9699    0.9670    0.9685      1000
+      science     0.8906    0.9360    0.9127      1000
+      society     0.9491    0.9320    0.9405      1000
+     politics     0.9170    0.9280    0.9225      1000
+       sports     0.9909    0.9830    0.9869      1000
+         game     0.9772    0.9410    0.9587      1000
+entertainment     0.9555    0.9670    0.9612      1000
+
+     accuracy                         0.9449     10000
+    macro avg     0.9453    0.9449    0.9450     10000
+ weighted avg     0.9453    0.9449    0.9450     10000
+
+Confusion Matrix...
+[[942  10  28   2   6   1   8   1   1   1]
+ [ 11 952  11   1   5   2   9   1   0   8]
+ [ 43  12 901   0  22   0  18   2   0   2]
+ [  0   1   0 967   5   9  10   0   1   7]
+ [  1   2  15   3 936   9  11   0  14   9]
+ [  5  13   1  12   6 932  22   0   1   8]
+ [  5   3  27   7  13  12 928   0   1   4]
+ [  2   1   2   0   1   5   2 983   0   4]
+ [  0   0   1   0  46   6   3   1 941   2]
+ [  1   1   0   5  11   6   1   4   4 967]]
+Time usage: 0:00:40

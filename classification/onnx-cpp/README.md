@@ -8,12 +8,13 @@
 
 ## 环境
 
-bazel 2.0.0
-onnxruntime-linux-x64-1.13.1
+- bazel 2.0.0
+- onnxruntime-linux-x64-1.13.1
 
 ## 效果
 
 test courps len count: 10000
+
 Totle run Time : 294441ms
 
 title级别的推理速度达到 29ms

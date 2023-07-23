@@ -102,3 +102,7 @@ The overall performance of BERT on **dev(test)**:
 ### check onnx
 
     python check_onnx.py
+
+### References
+
+    https://github.com/lonePatient/BERT-NER-Pytorch

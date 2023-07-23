@@ -6,5 +6,5 @@ This directory contains a few c/c++ sample applications for demoing onnxruntime
 
 ## projects list
 
-1. Text Classification
-2. Named Entity Recognition
+1. Text Classification [classification]
+2. Named Entity Recognition [ner]

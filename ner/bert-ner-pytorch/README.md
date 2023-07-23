@@ -104,7 +104,7 @@ The overall performance of BERT on **dev(test)**:
 
 ### check onnx
 
-    python check_onnx.py
+    python check_nerspan_onnx.py
 
 ### References
 

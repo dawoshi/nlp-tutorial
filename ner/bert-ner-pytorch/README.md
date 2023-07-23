@@ -7,7 +7,10 @@ BERT for Chinese NER.
 ### dataset list
 
 1. cner: datasets/cner
-2. CLUENER: https://github.com/CLUEbenchmark/CLUENER,  https://storage.googleapis.com/cluebenchmark/tasks/cluener_public.zip
+
+2. CLUENER: https://github.com/CLUEbenchmark/CLUENER,
+  
+   https://storage.googleapis.com/cluebenchmark/tasks/cluener_public.zip
 
 ### model list
 
@@ -96,7 +99,7 @@ The overall performance of BERT on **dev(test)**:
 
 
 ### convert onnx
-
+    
     python nerspan_export_onnx.py
 
 ### check onnx

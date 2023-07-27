@@ -15,9 +15,9 @@
 
 test courps len count: 10000
 
-Totle run Time : 294441ms
+Totle run Time : 226222ms
 
-title级别的推理速度达到 29ms
+title级别的推理速度达到 22ms
 
 ## 使用说明
 ```
@@ -30,4 +30,4 @@ nohup ./bazel-bin/model/model_test
 ```
 
 ## 参考
-[1] https://github.com/guodongxiaren/Bert-Chinese-Text-Classification-Pytorch
+[1] https://github.com/lonePatient/BERT-NER-Pytorch

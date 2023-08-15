@@ -1,0 +1,4 @@
+# local_repository(
+#     name = "onnxruntimelib",
+#     path = "third_party/onnxruntime/",
+# )

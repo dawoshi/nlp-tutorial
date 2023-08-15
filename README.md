@@ -7,5 +7,5 @@ This directory contains a few c/c++ sample applications for demoing onnxruntime
 ## projects list
 1. Text Classification
 2. Named Entity Recognition
-        a、span bert ner
-        b、mrc bert ner
+a、span bert ner
+b、mrc bert ner

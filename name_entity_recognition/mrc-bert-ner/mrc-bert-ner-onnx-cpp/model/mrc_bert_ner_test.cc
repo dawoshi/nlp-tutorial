@@ -14,14 +14,6 @@ int main(){
   detector.Init();
 
   struct timeval t1, t2; 
-  // gettimeofday(&t1, NULL);
-  // std::string tmp;
-  // std::string text = "财政部国家税务总局出台关于促进残疾人就业税收优惠政策的通知";
-  // detector.predict(text, tmp);
-  // std::cout << "predict: " << tmp << std::endl;
-  // gettimeofday(&t2, NULL);
-  // std::cout << "Totle run Time : " << ((t2.tv_sec - t1.tv_sec) +
-  //   (double)(t2.tv_usec - t1.tv_usec)/1000000.0) *1000.0<< "ms" << std::endl;
 
   std::vector<string> courps;
   ifstream infile;

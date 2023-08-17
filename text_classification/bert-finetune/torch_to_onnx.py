@@ -66,7 +66,7 @@ if __name__ == '__main__':
                       opset_version=11,
                       input_names = input_names,   # the model's input names
                       output_names = ['output'], # the model's output names
-                      dynamic_axes={'ids' : {0 : 'batch_size'},    # variable lenght axes
-                                    'seq_len' : {0 : 'batch_size'},
-                                    'mask' : {0 : 'batch_size'},
+                      dynamic_axes={'ids' : {0 : 'batch_size', 1:'seq_len'},    # variable lenght axes
+                                    'seq_len' : {0 : 'batch_size', 1: 'seq_len'},
+                                    'mask' : {0 : 'batch_size', 1: 'seq_len'},
                                     'output' : {0 : 'batch_size'}})

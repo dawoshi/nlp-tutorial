@@ -1,10 +1,6 @@
 #ifndef MODEL_MRC_BERT_NER_H
 #define MODEL_MRC_BERT_NER_H
 
-// #define DISALLOW_COPY_AND_ASSIGN(TypeName) \
-//     TypeName(const TypeName&);                \
-//     TypeName& operator=(const TypeName&)
-
 #include <iostream>
 #include <algorithm>
 #include <vector>

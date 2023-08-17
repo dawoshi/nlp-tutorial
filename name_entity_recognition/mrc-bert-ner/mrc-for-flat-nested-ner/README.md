@@ -52,6 +52,10 @@ and save the topk checkpoints to `$OUTPUT_DIR`. <br>
 After training, you can find the best checkpoint on the dev set according to the evaluation results in `$OUTPUT_DIR/train_log.txt`. <br> 
 Then run `python3 evaluate/mrc_ner_evaluate.py $OUTPUT_DIR/<best_ckpt_on_dev>.ckpt  $OUTPUT_DIR/lightning_logs/<version_0/hparams.yaml>` to evaluate on the test set with the best checkpoint chosen on dev. 
 
+### MRC-NER: Convert ONNX
+ After training, you can find the best checkpoint on the dev set according to the evaluation results in `$OUTPUT_DIR/train_log.txt`. <br>
+ Then run `./convert_onnx/msra_to_onnx.sh $OUTPUT_DIR/<best_ckpt_on_dev>.ckpt, The msra_to_onnx.sh configure must same to trained configure. so you should check convert_onnx/mrc_ner_trainer.py and train/mrc_ner_trainer.py.
+
 ### MRC-NER: Inference 
 
 Code for inference using the trained MRC-NER model can be found in `inference/mrc_ner_inference.py` file. <br>

@@ -69,7 +69,7 @@ The overall performance of BERT on **dev**:
 
 Using the pre trained models for text classification。
 
-### THUCNews
+#### THUCNews result
 model|acc|remarks
 --|--|--
 bert|94.83%|单纯的bert

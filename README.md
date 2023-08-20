@@ -6,10 +6,10 @@ nlp-tutorial is a tutorial for who is studying NLP(Natural Language Processing)ï
 
 ## Current directory structure
 - base
-- data
 - third party
 - name entity recognition
 - text classification
+- data
 
 ### base
 Base is pulled into many projects. For example, various ChromeOS daemons. So

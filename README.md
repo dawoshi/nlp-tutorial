@@ -16,6 +16,24 @@ nlp-tutorial is a tutorial for who is studying NLP(Natural Language Processing)�
 - text classification
 - data
 
+```text
+├── base
+├── third party
+├── name entity recognition
+|  |  └── span ner
+|  |   |   └── train-pytorch(span-bert-ner-pytorch)
+|  |   |   └── onnx-cpp 
+|  |  └── mrc ner
+|  |   |   └── train-pytorch(mrc-for-flat-nested-ner)
+|  |   |   └── onnx-cpp 
+├── text classification
+|  |  └── bert classification
+|  |   |   └── train-pytorch
+|  |   |   └── onnx-cpp 
+├── data
+|  |  └── ......
+```
+
 ### base
 Base is pulled into many projects. For example, various ChromeOS daemons. So
 the bar for adding stuff is that it must have demonstrated wide
@@ -28,7 +46,24 @@ Named entity recognition includes span ner and mrc ner.
 
 1、span ner is reference paper of SpanNER: Named EntityRe-/Recognition as Span Prediction [paper](https://arxiv.org/pdf/2106.00641.pdf), the code is reference of [https://github.com/lonePatient/BERT-NER-Pytorch], On the basis of this codes, I add the codes for converting to onnxruntime and deployment in C++.
 
+
+#### CLUENER result
+
+The overall performance of BERT on **dev**:
+
+|              | Accuracy (entity)  | Recall (entity)    | F1 score (entity)  |
+| ------------ | ------------------ | ------------------ | ------------------ |
+| BERT+Softmax | 0.7897     | 0.8031     | 0.7963    |
+| BERT+CRF     | 0.7977 | 0.8177 | 0.8076 |
+| BERT+Span    | 0.8132 | 0.8092 | 0.8112 |
+| BERT+Span+adv    | 0.8267 | 0.8073 | **0.8169** |
+| BERT-small(6 layers)+Span+kd    | 0.8241 | 0.7839 | 0.8051 |
+| BERT+Span+focal_loss    | 0.8121 | 0.8008 | 0.8064 |
+| BERT+Span+label_smoothing   | 0.8235 | 0.7946 | 0.8088 |
+
 2、Mrc ner is advances in Shannon.AI. for more details, please see A Unified MRC Framework for Named Entity Recognition In ACL 2020. [paper](https://arxiv.org/abs/1910.11476) , the code is in [https://github.com/ShannonAI/mrc-for-flat-nested-ner] , On the basis of this codes, I add the codes for converting to onnxruntime and deployment in C++.
+
+
 
 ### Text Classification
 

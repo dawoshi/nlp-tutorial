@@ -68,3 +68,13 @@ The overall performance of BERT on **dev**:
 ### Text Classification
 
 Using the pre trained models for text classification。
+
+### THUCNews
+model|acc|remarks
+--|--|--
+bert|94.83%|单纯的bert
+ERNIE|94.61%|说好的中文碾压bert呢  
+bert_CNN|94.44%|bert + CNN  
+bert_RNN|94.57%|bert + RNN  
+bert_RCNN|94.51%|bert + RCNN  
+bert_DPCNN|94.47%|bert + DPCNN  

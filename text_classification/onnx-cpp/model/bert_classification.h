@@ -1,16 +1,15 @@
-#ifndef MODEL_BERT_CLASSIFICATION_H
-#define MODEL_BERT_CLASSIFICATION_H
+#ifndef BERT_CLASSIFICATION_H
+#define BERT_CLASSIFICATION_H
 
 #include <iostream>
 #include <algorithm>
 #include <vector>
 #include <string>
 #include <memory>
-// #include "model/common.h"
 #include "base/tokenization.h"
 #include "onnxruntime_cxx_api.h"
 
-namespace BertOnnx {
+namespace nlp {
   const static std::vector<std::string> kNameTypes = {
         "finance",
         "realty",
@@ -34,9 +33,10 @@ namespace BertOnnx {
         std::vector<std::vector<int64_t>> build_input(const std::string& text);
         int curr_sess_id_;
         bool session_inited_;
+	Ort::Env env;
         std::vector<Ort::Session*> session_list_;
-        std::shared_ptr<BertOnnx::FullTokenizer> tokenizer_ = nullptr;
-        // DISALLOW_COPY_AND_ASSIGN(BertClassification);
+        std::unique_ptr<base::FullTokenizer> tokenizer_ = nullptr;
+        DISALLOW_COPY_AND_ASSIGN(BertClassification);
   };
 } // namespace
-#endif // MODEL_MODEL_H
+#endif // BERT_CLASSIFICATION_H

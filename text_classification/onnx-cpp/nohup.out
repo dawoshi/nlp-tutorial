@@ -1,6 +1,0 @@
-session init num thread: 8
-vocab.txt
-model init succuss!
-test courps len count: 10000
-Totle run Time : 294441ms
-~ BertClassification

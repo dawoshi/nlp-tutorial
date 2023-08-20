@@ -1,10 +1,15 @@
 ## nlp-tutorial
 
-<p align="center"><img width="100" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/ONNX_logo_main.png" />  <img width="100" src="https://media-thumbs.golden.com/OLqzmrmwAzY1P7Sl29k2T9WjJdM=/200x200/smart/golden-storage-production.s3.amazonaws.com/topic_images/e08914afa10a4179893eeb07cb5e4713.png" /></p>
+<p align="center">
+  <img width="100" src="https://upload.wikimedia.org/wikipedia/commons/c/c0/ONNX_logo_main.png" />  
+  <img width="100" src="https://media-thumbs.golden.com/OLqzmrmwAzY1P7Sl29k2T9WjJdM=/200x200/smart/golden-storage-production.s3.amazonaws.com/topic_images/e08914afa10a4179893eeb07cb5e4713.png" />
+  <img width="100" src="https://upload.wikimedia.org/wikipedia/en/7/7d/Bazel_logo.svg" />
+  <img width="100" src = "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" />
+</p>
 
 nlp-tutorial is a tutorial for who is studying NLP(Natural Language Processing)，This project uses Pytorch training and engineering deployment using C++.
 
-## Current directory structure
+## Structures
 - base
 - third party
 - name entity recognition

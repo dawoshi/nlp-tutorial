@@ -47,7 +47,7 @@ Named entity recognition includes span ner and mrc ner.
 1、span ner is reference paper of SpanNER: Named EntityRe-/Recognition as Span Prediction [paper](https://arxiv.org/pdf/2106.00641.pdf), the code is reference of [https://github.com/lonePatient/BERT-NER-Pytorch], On the basis of this codes, I add the codes for converting to onnxruntime and deployment in C++.
 
 
-#### CLUENER result
+#### CLUENER
 
 The overall performance of BERT on **dev**:
 
@@ -63,13 +63,20 @@ The overall performance of BERT on **dev**:
 
 2、Mrc ner is advances in Shannon.AI. for more details, please see A Unified MRC Framework for Named Entity Recognition In ACL 2020. [paper](https://arxiv.org/abs/1910.11476) , the code is in [https://github.com/ShannonAI/mrc-for-flat-nested-ner] , On the basis of this codes, I add the codes for converting to onnxruntime and deployment in C++.
 
+#### msra_zh
+
+|   model  | precision  | Recall | F1 score  |
+| -------- | ---------- | ------ | --------- |
+| BERT+MRC | 0.9243     | 0.9113 | 0.9177    |
+
 
 
 ### Text Classification
 
 Using the pre trained models for text classification。
 
-#### THUCNews result
+#### THUCNews
+
 model|acc|remarks
 --|--|--
 bert|94.83%|单纯的bert

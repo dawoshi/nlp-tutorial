@@ -22,10 +22,14 @@ title级别的推理速度达到 29ms
 ## 使用说明
 ```
 # 编译：
-bazel build //model:model_test 
+bazel build //text_classification/onnx-cpp/model:model_test
+
+# model.onnx 和 vocab.txt
+位置：data/text_classification/onnx-cpp/model/
+
 # 执行
-需要 model.onnx , vocab.txt 文件
-nohup ./bazel-bin/model/model_test
+
+nohup ./bazel-bin/text_classification/onnx-cpp/model/model_test
 
 ```
 

@@ -9,7 +9,7 @@
 
 nlp-tutorial is a tutorial for who is studying NLP(Natural Language Processing)，This project uses Pytorch training and deploying with C++.
 
-## Structures
+## 一、 Structures
 - base
 - third party
 - name entity recognition
@@ -41,7 +41,7 @@ applicability. Prefer to add things closer to where they're used (i.e. "not
 base"), and pull into base only when needed.  In a project our size,
 sometimes even duplication is OK and inevitable.
 
-### name entity recognition
+### 二、 name entity recognition
 Named entity recognition includes span ner and mrc ner.
 
 1、span ner is reference paper of SpanNER: Named EntityRe-/Recognition as Span Prediction [paper](https://arxiv.org/pdf/2106.00641.pdf), the code is reference of [https://github.com/lonePatient/BERT-NER-Pytorch], On the basis of this codes, I add the codes for converting to onnxruntime and deployment in C++.
@@ -71,7 +71,7 @@ The overall performance of BERT on **dev**:
 
 
 
-### Text Classification
+### 三、 Text Classification
 
 Using the pre trained models for text classification。
 

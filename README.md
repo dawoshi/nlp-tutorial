@@ -86,4 +86,4 @@ bert_RNN|94.57%|bert + RNN
 bert_RCNN|94.51%|bert + RCNN  
 bert_DPCNN|94.47%|bert + DPCNN  
 
-[![Star History Chart](https://api.star-history.com/svg?repos=guodongxiaren/README&type=Date)](https://star-history.com/#guodongxiaren/README&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=guodongxiaren/README&type=Date)](https://star-history.com/#dawoshi/nlp-tutorial/README&Date)

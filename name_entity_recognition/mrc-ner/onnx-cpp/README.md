@@ -22,10 +22,12 @@ title级别的推理速度达到 22ms
 ## 使用说明
 ```
 # 编译：
-bazel build //model:model_test 
+bazel build //name_entity_recognition/mrc-ner/onnx-cpp/model:model_test
+# model.onnx和vocab.txt
+data/name_entity_recognition/mrc-ner/onnx-cpp/model/
 # 执行
 需要 model.onnx , vocab.txt 文件
-nohup ./bazel-bin/model/model_test
+nohup ./bazel-bin/name_entity_recognition/mrc-ner/onnx-cpp/model/model_test
 
 ```
 

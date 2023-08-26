@@ -86,4 +86,4 @@ bert_RNN|94.57%|bert + RNN
 bert_RCNN|94.51%|bert + RCNN  
 bert_DPCNN|94.47%|bert + DPCNN  
 
-[![Star History Chart](https://api.star-history.com/svg?repos=dawoshi/nlp-tutorial/master/README&type=Date)](https://star-history.com/#dawoshi/nlp-tutorial/README&Date)
+<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=Z2hwX0NwMU05MThQYUhPYjBTeVh5UkVlejkwbmgwdzdGdTNZc25Cdg==#star-history/star-history&Date" frameBorder="0"></iframe>

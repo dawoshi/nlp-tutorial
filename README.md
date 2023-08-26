@@ -7,7 +7,7 @@
   <img width="100" src = "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" />
 </p>
 
-nlp-tutorial is a tutorial for who is studying NLP(Natural Language Processing)，This project uses Pytorch training and engineering deployment using C++.
+nlp-tutorial is a tutorial for who is studying NLP(Natural Language Processing)，This project uses Pytorch training and deploying with C++.
 
 ## Structures
 - base

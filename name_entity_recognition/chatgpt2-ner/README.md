@@ -4,7 +4,10 @@
 
 [msra_mrc](https://drive.google.com/file/d/1bAoSJfT1IBdpbQWSrZPjQPPbAsDGlN2D/view)
 
-训练样本构造样例如下：
+## 生成训练数据
+
+- msra2chat.py
+  
 ```
  {
    "history": [],

@@ -17,21 +17,29 @@ nlp-tutorial is a tutorial for who is studying NLP(Natural Language Processing)�
 - data
 
 ```text
-├── base
-├── third party
-├── name entity recognition
-|  |  └── span ner
-|  |   |   └── train-pytorch(span-bert-ner-pytorch)
-|  |   |   └── onnx-cpp 
-|  |  └── mrc ner
-|  |   |   └── train-pytorch(mrc-for-flat-nested-ner)
-|  |   |   └── onnx-cpp 
-├── text classification
-|  |  └── bert classification
-|  |   |   └── train-pytorch
-|  |   |   └── onnx-cpp 
-├── data
-|  |  └── ......
+ ├── base
+ ├── build
+ ├── data
+ │   ├── name_entity_recognition
+ │   │   ├── mrc-ner
+ │   │   └── span-ner
+ │   └── text_classification
+ ├── name_entity_recognition
+ │   ├── chatgpt2-ner
+ │   ├── mrc-ner
+ │   │   ├── mrc-for-flat-nested-ner
+ │   │   └── onnx-cpp
+ │   │       └── model
+ │   └── span-ner
+ │       ├── onnx-cpp
+ │       │   └── model
+ │       └── span-bert-ner-pytorch
+ ├── testing
+ ├── text_classification
+ │   ├── bert-finetune
+ │   └── onnx-cpp
+ │       └── model
+ └── third_party
 ```
 
 ### base
